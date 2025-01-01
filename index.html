@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myng UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Navbar -->
+    <nav class="py-4 px-4 lg:px-16 w-full bg-white z-50">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="flex justify-between items-center">
+                <img src="assets/images/SVG.png" alt="Logo" width="101" class="logo">
+
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="#" class="text-[#0F172A]">Features</a>
+                    <a href="#" class="text-[#0F172A]">Communities</a>
+                    <a href="#" class="text-[#0F172A]">Events</a>
+                    <a href="#" class="text-[#0F172A]">About Us</a>
+                    <a href="#" class="text-[#0F172A]">Login</a>
+                    <a href="#" class="bg-[#0A1A2F] text-white px-6 py-2 roundd">
+                        Join for Free →
+                    </a>
+                </div>
+
+                <button class="lg:hidden text-gray-600 z-50" id="menu-toggle">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-container">
+        <div class="content-wrapper text-center max-w-3xl mx-auto px-4 lg:px-6 tribe">
+            <h1 class="text-[#0F172A] text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-3">
+                Find Your Tribe,<br>
+                Build Your Network.
+            </h1>
+            <p class="text-[#0F172A] text-lg md:text-xl mb-6">
+                Connect with like-minded students for fun,<br>
+                friendships, and future opportunities.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="#" class="bg-[#0A1A2F] text-white px-8 py-3 roundee hover:bg-[#152438] transition-colors duration-300 w-full sm:w-auto">
+                    Join for Free →
+                </a>
+                <a href="#" class="flex items-center justify-center space-x-2 text-[#0F172A] xx w-full sm:w-auto mt-4 sm:mt-0">
+                    <img src="assets/images/person.png" alt="Person" width="30">
+                    <span>Explore Communities</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="image-wrapper">
+            <img src="assets/images/BG.png" alt="3D Characters">
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden">
+        <div class="p-6 pt-20">
+            <button class="text-gray-600 absolute top-4 right-4" id="close-menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+            <div class="flex flex-col space-y-6">
+                <a href="#" class="text-[#0F172A] text-xl">Features</a>
+                <a href="#" class="text-[#0F172A] text-xl">Communities</a>
+                <a href="#" class="text-[#0F172A] text-xl">Events</a>
+                <a href="#" class="text-[#0F172A] text-xl">About Us</a>
+                <a href="#" class="text-[#0F172A] text-xl">Login</a>
+                <a href="#" class="bg-[#0A1A2F] text-white px-6 py-3 roundd text-center">
+                    Join for Free →
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
