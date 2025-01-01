@@ -4,9 +4,9 @@ This project is a replication of a design I saw on Twitter, built using **HTML**
 
 ## Design Comparison
 
-| Original Twitter Design                     | My Replication                               |
-| ------------------------------------------- | -------------------------------------------- |
-| ![Original Design](assets/images/tweet.png) | ![My Replication](assets/images/desktop.png) |
+| Original Twitter Design                      | My Replication                                |
+| -------------------------------------------- | --------------------------------------------- |
+| ![Original Design](assets/images/tweet.jpeg) | ![My Replication](assets/images/desktop.jpeg) |
 
 ## Features
 
@@ -24,7 +24,7 @@ This project is a replication of a design I saw on Twitter, built using **HTML**
 ### Screenshots
 
 Desktop View
-![Desktop View](assets/images/desktop.png)
+![Desktop View](assets/images/desktop.jpeg)
 
 Mobile View
-![Mobile View](assets/images/mobile.png)
+![Mobile View](assets/images/mobile.jpeg)
